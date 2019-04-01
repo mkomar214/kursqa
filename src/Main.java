@@ -4,11 +4,13 @@ public class Main {
 
 
     public static void main (String... arg){
+
         Scanner in = new Scanner(System.in);
         System.out.println("Ведите колличество конфет : ");
         int k = in.nextInt();
         System.out.println("Ведите курс обмена :  ");
         int c = in.nextInt();
+        
     int g = 0; // съеденые
     int h ;// фантики
 
