@@ -7,23 +7,22 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Ведите колличество конфет : ");
-        int k = in.nextInt();
+        int konf = in.nextInt();
         System.out.println("Ведите курс обмена :  ");
-        int c = in.nextInt();
-        
-    int g = 0; // съеденые
-    int h ;// фантики
+        int kurs = in.nextInt();
+        int fant = 0;// фантики
 
-        for (int b = k/c; b>=1;) {
-            h = b%c;
-            g = g+k;
-            b = b/c;
-            k = k/c+h;
-            if (b==0) {
-                System.out.println(g + " сожрали");
-                System.out.println(h + " остаток фаньтиков");
+        for (int i = konf; i>=kurs;){
+            fant=i%kurs;
+            konf=konf+i/kurs;
+             i=i/kurs+fant;
+            if (i<kurs){
+                System.out.println(konf + " сожрали");
+                System.out.println(i + " остаток фаньтиков");
             }
+
         }
 
     }
 }
+
