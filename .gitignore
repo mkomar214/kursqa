@@ -1,4 +1,5 @@
 *iml
-.idea
+.idea/
 kurs1.iml
-out
+out/
+.gitignore
