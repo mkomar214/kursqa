@@ -18,8 +18,8 @@ public class CLASS1 {
 //        среднеарифметическо массива
 //        int[] arr = {1,2,3,4,5,6,7};
 //        int result=0;
-//        for(int i= 0; i < arr.length; i++ ){
-//            result=result+arr[i];
+//        for(int i:arr ){
+//            result=result+i;
 //            }
 //        result = result/ arr.length;
 //        System.out.println(result);
@@ -62,6 +62,18 @@ public class CLASS1 {
 //            System.out.println(arr[i]);
 
 //        }
-        
+//            Рандомный массим
+//        Integer[] arr = new Integer[5];
+//        for (Integer i : arr) {
+//            Random ran = new Random();
+//            int rNum = ran.nextInt(10);
+//
+//            i = rNum;
+//            if (i == 5) {
+//                System.out.println(i);
+//            }
+//        }
+
     }
 }
+
