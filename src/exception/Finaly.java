@@ -1,19 +1,14 @@
-package other;
+package exception;
 
-public class TryCatch {
+public class Finaly {
 
-    public static void tryCatch(){
-
-
+    public static void finaly(){
 
         try {
             int num = 1;
             int zero = 0;
             int result = num / zero;
             System.out.println("!");
-        } catch (ArithmeticException e) {
-            System.out.println( e.toString() + ": нельзя делить на ноль");
-
         }
         finally {
             System.out.println("finaly");
