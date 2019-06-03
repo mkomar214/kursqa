@@ -7,7 +7,8 @@ public class Validate {
         {
             if (s.isEmpty())
                 return true;
-
+            if (s.length()==1)
+                return false;
             Stack<Character> stack = new Stack<>();
             for (int i = 0; i < s.length(); i++) {
                 char c = s.charAt(i);
